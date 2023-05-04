@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+:root {
+    --white1: #ffffff;
+    --green1: #05ad4e;
+    --green2: #005339;
+    --green3: #00ad4f;
+    --yellow1: #fff200;
+}
+
+@font-face {
+    font-family: grab-bold;
+    src: url("../fonts/Solid-Bold.ttf");
+}
+@font-face {
+    font-family: grab-en-bold;
+    src: url("../fonts/Solid-EN-Bold.otf");
+}
+@font-face {
+    font-family: grab-en-regular;
+    src: url("../fonts/Solid-EN-Regular.otf");
+}
+@font-face {
+    font-family: grab-en-inline;
+    src: url("../fonts/v2.0-Inline.ttf");
+}
+/* .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+} */
+body {
+    padding-top: 56px;
+}
+.logo {
+    height: 36px;
+    width: 92.57142639160156px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar {
+    background-color: var(--green1);
+    font-family: grab-en-regular;
+}
+.navbar a {
+    color: var(--white1);
+}
+.footer {
+    width: 100%;
+    background-color: var(--green3);
+    /* height: 384px; */
+    height: 100%;
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selected-button {
+    color: var(--yellow1);
+}
+.footer-img {
+    width: 100%;
+}
+/* xsmall */
+@media screen and (min-width: 0px) {
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    /* .footer {
+        height: 384px;
+    } */
+    .footer-img {
+        width: 80%;
+    }
+}
+/* desktop */
+@media screen and (min-width: 992px) {
+    body {
+        padding-top: 80px;
+    }
+    .navbar {
+        height: 80px;
+    }
+    .footer-img {
+        max-width: 558px;
+        width: 60%;
+    }
+}
+/* large */
+@media screen and (min-width: 1280px) {
+}

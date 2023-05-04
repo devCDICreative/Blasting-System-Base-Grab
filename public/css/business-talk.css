@@ -1,0 +1,386 @@
+.modal-header {
+    border: none;
+}
+.modal-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hero-wrapper {
+    width: 100%;
+    position: relative;
+}
+.hero-img {
+    width: 100%;
+}
+.hero-left-decor {
+    position: absolute;
+    width: 61px;
+    left: 50%;
+    top: 84%;
+    transform: translate(-207%, 27%);
+}
+.hero-right-decor {
+    position: absolute;
+    width: 61px;
+    left: 50%;
+    top: 84%;
+    transform: translate(109%, 27%);
+}
+.hero-button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: var(--green1);
+    border-radius: 28.5px;
+
+    font-family: grab-en-bold;
+    font-size: 6px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--white);
+}
+.business-wrapper {
+    padding: 30px 0;
+}
+.card-wrappper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.wrapper-title {
+    font-family: grab-en-bold;
+    color: var(--green2);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+.wrapper-sub {
+    font-family: grab-en-inline;
+    color: var(--green3);
+    font-size: 26px;
+    margin-top: 16px;
+    /* font-weight: 720; */
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.business-card {
+    background-color: var(--green1);
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.card-session {
+    font-family: grab-en-regular;
+    color: var(--yellow1);
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.card-title {
+    font-family: grab-en-regular;
+    color: var(--white);
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 0em;
+}
+
+.card-speaker {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.card-speaker-box {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+.card-speaker-img {
+    width: 100%;
+    margin: 5px 0;
+}
+.card-speaker-name {
+    font-size: 8px;
+    /* line-height: 11px; */
+    color: var(--yellow1);
+    font-family: grab-en-bold;
+    text-align: center;
+}
+.card-speaker-title {
+    font-size: 7px;
+    font-family: grab-en-regular;
+    /* width: 60%; */
+    /* line-height: 11px; */
+    text-align: center;
+    color: var(--white);
+}
+.divider-speaker {
+    width: 100%;
+}
+.divider {
+    width: 100%;
+    margin-top: auto;
+    border: 1px solid var(--white);
+}
+.card-button {
+    cursor: pointer;
+    background-color: var(--green2);
+    font-family: grab-en-regular;
+    color: var(--white);
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    width: 110px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#modalSection,
+#modalMainTitle {
+    font-family: grab-en-bold;
+    font-size: 15px;
+    color: var(--green1);
+    line-height: 21px;
+}
+#modalSub {
+    font-family: grab-en-inline;
+    font-size: 20px;
+    margin: 10px 0;
+    color: var(--green1);
+    line-height: 26px;
+}
+#modalLocationWrapper,
+#modalTimeWrapper,
+#modalSpeakerWrapper {
+    align-items: center;
+    display: flex;
+    font-family: grab-en-regular;
+}
+#modalLocationWrapper img {
+    margin-top: 4px;
+    width: 7px;
+    align-self: baseline;
+    margin-right: 13px;
+    margin-left: 9px;
+}
+#modalTimeWrapper img {
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+#modalSpeakerWrapper,
+#modalTimeWrapper {
+    margin-top: 5px;
+}
+#modalSpeakerWrapper img {
+    width: 8px;
+    height: 17px;
+    margin-left: 8px;
+    margin-right: 11px;
+}
+.modal-speaker-wrapper {
+    display: flex;
+    padding: 15px 0px;
+    font-family: grab-en-regular;
+}
+.modal-speaker {
+    width: 25%;
+    margin: 0 5px;
+}
+.speaker-img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.speaker-name {
+    font-size: 8px;
+    margin-top: 4px;
+    text-align: center;
+    color: var(--green3);
+    font-family: grab-en-bold;
+    text-align: center;
+}
+.speaker-title,
+.speaker-company {
+    font-size: 6px;
+    text-align: center;
+}
+/* xsmall */
+@media screen and (min-width: 0px) {
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    .hero-left-decor {
+        width: 127px;
+        transform: translate(-199%, 23%);
+    }
+    .hero-right-decor {
+        width: 127px;
+        transform: translate(101%, 23%);
+    }
+    .hero-button {
+        width: 202px;
+        height: 46px;
+        font-size: 11px;
+    }
+    .business-card {
+        margin-left: 26%;
+        margin-right: 26%;
+        align-items: center;
+    }
+    .card-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .speaker-name,
+    .card-speaker-name {
+        font-size: 16px;
+        /* line-height: 20px; */
+    }
+
+    .speaker-title,
+    .speaker-company,
+    .card-speaker-title {
+        font-size: 9px;
+        text-align: center;
+        /* line-height: 16px; */
+    }
+}
+/* desktop */
+@media screen and (min-width: 992px) {
+    .hero-left-decor {
+        width: 15%;
+        transform: translate(-222%, 32%);
+    }
+    .hero-right-decor {
+        width: 15%;
+        transform: translate(127%, 32%);
+    }
+    .hero-button {
+        width: 31%;
+        height: 61px;
+        font-size: 17px;
+    }
+    .business-wrapper {
+        padding: 60px 5%;
+    }
+    .card-wrappper {
+        padding: 22px 0;
+    }
+    .wrapper-title,
+    .wrapper-sub {
+        text-align: left;
+        margin-left: unset;
+        margin-right: unset;
+        margin-top: unset;
+    }
+    .wrapper-sub {
+        width: 82%;
+    }
+
+    .business-card-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .speaker-name,
+    .card-speaker-name {
+        font-size: 18px;
+    }
+    /* .card-speaker-name {
+        height: 86px;
+    }
+    .speaker-name {
+        height: 57px;
+    } */
+    .business-card {
+        margin-left: unset;
+        margin-right: unset;
+        width: 30%;
+        align-items: unset;
+    }
+    .card-title {
+        display: unset;
+        /* height: 90px; */
+    }
+    #modalSection,
+    #modalMainTitle,
+    #modalSub {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #modalSub {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    /* .speaker-name {
+        font-size: 18px;
+    } */
+    .speaker-title,
+    .speaker-company,
+    .card-speaker-title {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+/* @media screen and (min-width: 1024px) {
+    .speaker-name,
+    .card-speaker-name {
+        font-size: 15px;
+    }
+    .speaker-title,
+    .speaker-company,
+    .card-speaker-title {
+        font-size: 10px;
+    }
+} */
+@media screen and (min-width: 1440px) {
+    .hero-button {
+        font-size: 19px;
+    }
+}
+/* @media screen and (min-width: 1024px) and (max-width: 1098px) {
+    .bs-talk1 .card-title {
+        min-height: 120px;
+    }
+    .bs-talk2 .card-title,
+    .bs-talk3 .card-title {
+        min-height: 150px;
+    }
+}
+@media screen and (min-width: 1099px) {
+    .bs-talk2 .card-title {
+        min-height: 120px;
+    }
+    .bs-talk3 .card-title {
+        min-height: 150px;
+    }
+}
+@media screen and (min-width: 1101px) {
+    .bs-talk3 .card-title {
+        min-height: 120px;
+    }
+} */
